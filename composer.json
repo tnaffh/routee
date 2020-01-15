@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "tnaffh",
-            "email": "tnaffh@yourdomain.com"
+            "name": "Naftal Timotheus",
+            "email": "tnaffh@gmail.com"
         }
     ],
     "autoload": {
@@ -14,7 +14,9 @@
                 "Tnaffh\\Routee\\": "src/"
             }
         },
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {

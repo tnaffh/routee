@@ -23,6 +23,8 @@ class RouteeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->publishes([
+            __DIR__.'/../../config/config.php' => config_path('routee.php'),
+        ]);
     }
 }
