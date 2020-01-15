@@ -1,0 +1,29 @@
+{
+    "name": "tnaffh/routee",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tnaffh",
+            "email": "tnaffh@yourdomain.com"
+        }
+    ],
+    "autoload": {
+            "psr-4": {
+                "Tnaffh\\Routee\\": "src/"
+            }
+        },
+    "require": {},
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tnaffh\\Routee\\RouteeServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}
